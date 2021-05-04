@@ -1,5 +1,5 @@
 # JavaScript_JQuery
-There are some button samples. These are my internship assignments in Matrix Teknoloji. (April 15 -16, 2021)
+There are some button samples. These are my internship assignments at Matrix Teknoloji. (April 15 -16, 2021)
 
 By using JavaScript and JQuery, the location of the button is changed when the button is clicked. 
 
