@@ -14,3 +14,7 @@ By using Js and Jquery, the color of the button is changed when the button is cl
 ![55](https://user-images.githubusercontent.com/71151015/115224135-2f9aee80-a115-11eb-8a95-1636f6a7e980.PNG)
 ![66](https://user-images.githubusercontent.com/71151015/115224144-3164b200-a115-11eb-83e5-daf9b8e86c2c.PNG)
 ![77](https://user-images.githubusercontent.com/71151015/115224153-3295df00-a115-11eb-9eac-f741fce2de07.PNG)
+
+# Point
+
+# TRim Method
