@@ -1,6 +1,4 @@
-# JavaScript_JQuery
-
-## Button Location and Button Colour
+# Button Location and Button Colour
 There are some button samples. These are my internship assignments at Matrix Teknoloji. (April 15 -16, 2021)
 
 By using JavaScript and JQuery, the location of the button is changed when the button is clicked. 
