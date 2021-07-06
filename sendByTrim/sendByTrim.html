@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Send By Trim</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <style>
+      body{
+        background-color: rgb(248, 199, 64);
+      }
+    </style>
+
+  </head>
+  <body>
+      
+        <div class="container">
+            <form>
+                <div class="form-group mt-5">
+                  Adınız: <input type="text" name="adi" id="adi" class="form-control mt-5">
+                </div>
+
+                <div class="form-group mt-5">
+                  Soyadınız: <input type="text" name="soyadi" id="soyadi" class="form-control mt-5">
+                </div>
+
+                <button id="gonder" type="submit" class="btn btn-primary mt-5">Trim Gönder</button>
+            </form>
+        </div>
+
+        <script>
+          $(document).ready(function(){ 
+            $("#gonder").click(function name(){
+              let adDeger = $("#adi").val();
+              let soyadDeger = $("#soyadi").val();
+
+              //adDeger = $.trim(adDeger);
+              //soyadDeger = $.trim(soyadDeger);
+
+              if(!adDeger && !soyadDeger){
+                alert("Bu alanları boş geçemezsiniz. Ad ve soyad giriniz.");
+              }
+              else if(!adDeger){
+                alert("Bu alanı boş geçemezsiniz. Ad giriniz.");
+              }
+              else if(!soyadDeger){
+                alert("Bu alanı boş geçemezsiniz. Soyad giriniz.");
+              }
+              else{
+                alert("Gönderildi");
+              }
+            });
+          });
+        </script>
+
+  </body>
+</html>
